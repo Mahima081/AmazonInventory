@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<RequestReportResponse xmlns="http://mws.amazonaws.com/doc/2009-01-01/">
+  <RequestReportResult>
+    <ReportRequestInfo>
+      <ReportType>_GET_FLAT_FILE_ALL_ORDERS_DATA_BY_ORDER_DATE_</ReportType>
+      <ReportProcessingStatus>_SUBMITTED_</ReportProcessingStatus>
+      <EndDate>2019-01-09T15:00:00+00:00</EndDate>
+      <Scheduled>false</Scheduled>
+      <ReportRequestId>86476017906</ReportRequestId>
+      <SubmittedDate>2019-01-10T06:49:31+00:00</SubmittedDate>
+      <StartDate>2019-01-08T15:00:00+00:00</StartDate>
+    </ReportRequestInfo>
+  </RequestReportResult>
+  <ResponseMetadata>
+    <RequestId>11b2718a-752e-4cf7-a8a4-2e0ad1346e30</RequestId>
+  </ResponseMetadata>
+</RequestReportResponse>
