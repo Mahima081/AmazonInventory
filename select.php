@@ -2,7 +2,7 @@
  if(isset($_POST["asin"]))  
  {  
       $output = '';  
-      $connect = mysqli_connect("localhost", "root", "Mahima_1508", "details");  
+      $connect = mysqli_connect("amz-profit-calculator.cupbdaodf4ns.ap-northeast-1.rds.amazonaws.com", "jwire", "intern_jw!re", "amz_pc_prod","3306");  
       $query = "SELECT * FROM datainfo WHERE asin = '".$_POST["asin"]."'";  
       $result = mysqli_query($connect, $query);  
       echo '  
