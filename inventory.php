@@ -1,5 +1,6 @@
 <?php
-$link = mysqli_connect("localhost", "root", "Mahima_1508", "details"); 
+$link = mysqli_connect("amz-profit-calculator.cupbdaodf4ns.ap-northeast-1.rds.amazonaws.com", "jwire", "intern_jw!re", "amz_pc_prod","3306");  
+
  
 // Check connection
 if($link === false){
