@@ -57,7 +57,7 @@ background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 <br><br>
  <h1 style="color:#1a468c;"><center>INVENTORY ORDERS</center></h1>
 	<?php
-$link = mysqli_connect("localhost", "root", "Mahima_1508", "details"); 
+$link = mysqli_connect("amz-profit-calculator.cupbdaodf4ns.ap-northeast-1.rds.amazonaws.com", "jwire", "intern_jw!re", "amz_pc_prod","3306");  
  
 // Check connection
 if($link === false){
